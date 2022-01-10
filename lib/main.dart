@@ -21,15 +21,19 @@ void main() {
           child: Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Image(
-                height: 200,
-                width: 200,
-                image: AssetImage("images/dice6.png"),
+              Expanded(
+                child: Image(
+                  height: 200,
+                  width: 200,
+                  image: AssetImage("images/dice6.png"),
+                ),
               ),
-              Image(
-                height: 200,
-                width: 200,
-                image: AssetImage("images/dice6.png"),
+              Expanded(
+                child: Image(
+                  height: 200,
+                  width: 200,
+                  image: AssetImage("images/dice6.png"),
+                ),
               ),
             ],
           ),
