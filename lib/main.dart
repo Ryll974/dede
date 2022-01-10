@@ -22,18 +22,28 @@ void main() {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Expanded(
-                child: Image(
-                  height: 200,
-                  width: 200,
-                  image: AssetImage("images/dice6.png"),
-                ),
+                child: TextButton(
+                  child: Image(
+                    height: 200,
+                    width: 200,
+                    image: AssetImage("images/dice6.png"),
+                  ),
+                  onPressed:() {
+                    print ("test dé 1");
+                  },
+                )
               ),
               Expanded(
-                child: Image(
-                  height: 200,
-                  width: 200,
-                  image: AssetImage("images/dice6.png"),
-                ),
+                  child: TextButton(
+                    child: Image(
+                      height: 200,
+                      width: 200,
+                      image: AssetImage("images/dice6.png"),
+                    ),
+                    onPressed:() {
+                      print ("test dé 2");
+                    },
+                  )
               ),
             ],
           ),
