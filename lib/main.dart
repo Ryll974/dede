@@ -22,13 +22,13 @@ void main() {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Image(
-                height: 100,
-                width: 100,
+                height: 200,
+                width: 200,
                 image: AssetImage("images/dice6.png"),
               ),
               Image(
-                height: 100,
-                width: 100,
+                height: 200,
+                width: 200,
                 image: AssetImage("images/dice6.png"),
               ),
             ],
