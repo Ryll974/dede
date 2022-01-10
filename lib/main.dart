@@ -17,11 +17,21 @@ void main() {
           ),
           backgroundColor: Colors.black,
         ),
-        body: Center(
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Expanded(
+        body: DicePage (),
+      ),
+    ),
+  );
+}
+
+class DicePage extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      child: Center(
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Expanded(
                 child: TextButton(
                   child: Image(
                     height: 200,
@@ -32,23 +42,22 @@ void main() {
                     print ("test dé 1");
                   },
                 )
-              ),
-              Expanded(
-                  child: TextButton(
-                    child: Image(
-                      height: 200,
-                      width: 200,
-                      image: AssetImage("images/dice6.png"),
-                    ),
-                    onPressed:() {
-                      print ("test dé 2");
-                    },
-                  )
-              ),
-            ],
-          ),
+            ),
+            Expanded(
+                child: TextButton(
+                  child: Image(
+                    height: 200,
+                    width: 200,
+                    image: AssetImage("images/dice6.png"),
+                  ),
+                  onPressed:() {
+                    print ("test dé 2");
+                  },
+                )
+            ),
+          ],
         ),
       ),
-    ),
-  );
+    );
+  }
 }
