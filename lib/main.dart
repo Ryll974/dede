@@ -24,12 +24,12 @@ void main() {
               Image(
                 height: 100,
                 width: 100,
-                image: AssetImage("images/Dice--01.png"),
+                image: AssetImage("images/dice6.png"),
               ),
               Image(
                 height: 100,
                 width: 100,
-                image: AssetImage("images/Dice--01.png"),
+                image: AssetImage("images/dice6.png"),
               ),
             ],
           ),
