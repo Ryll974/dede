@@ -24,6 +24,7 @@ void main() {
 }
 
 class DicePage extends StatelessWidget {
+  var leftDiceNumber = 5;
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -36,7 +37,7 @@ class DicePage extends StatelessWidget {
                   child: Image(
                     height: 200,
                     width: 200,
-                    image: AssetImage("images/dice6.png"),
+                    image: AssetImage("images/dice$leftDiceNumber.png"),
                   ),
                   onPressed:() {
                     print ("test dé 1");
